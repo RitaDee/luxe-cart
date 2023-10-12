@@ -88,7 +88,7 @@ const products = [
         category: 'Electronics',
         price: '100.00',
         CountInStock: '12',
-        rating: '5.0',
+        rating: '1.0',
         numReviews: '20',
     },
      {
