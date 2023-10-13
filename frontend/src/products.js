@@ -87,7 +87,7 @@ const products = [
         brand: 'Samsung',
         category: 'Electronics',
         price: '100.00',
-        CountInStock: '12',
+        CountInStock: '0',
         rating: '1.0',
         numReviews: '20',
     },
