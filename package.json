@@ -1,0 +1,15 @@
+{
+  "name": "luxe-cart",
+  "version": "1.0.0",
+  "description": "Ecommerce App",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node serverSide/server.js"
+  },
+  "author": "RitaDee",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
