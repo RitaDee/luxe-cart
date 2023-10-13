@@ -1,0 +1,22 @@
+{
+  "name": "luxe-cart",
+  "version": "1.0.0",
+  "description": "Ecommerce App",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node serverSide/server.js",
+    "server": "nodemon serverSide/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "RitaDee",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "nodemon": "^3.0.1"
+  }
+}
